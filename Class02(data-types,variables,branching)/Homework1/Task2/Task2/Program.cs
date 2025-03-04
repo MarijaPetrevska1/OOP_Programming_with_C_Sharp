@@ -4,7 +4,7 @@ Console.WriteLine();
 
 
 // First Number
-Console.WriteLine("Enter the first number: ");
+Console.Write("Enter the first number: ");
 double firstNum;
 if (!double.TryParse(Console.ReadLine(), out firstNum))
 {
@@ -13,7 +13,7 @@ if (!double.TryParse(Console.ReadLine(), out firstNum))
 }
 
 // Second number
-Console.WriteLine("Enter the second number: ");
+Console.Write("Enter the second number: ");
 double secondNum;
 if (!double.TryParse(Console.ReadLine(), out secondNum))
 {
@@ -22,7 +22,7 @@ if (!double.TryParse(Console.ReadLine(), out secondNum))
 }
 
 // Third number
-Console.WriteLine("Enter the third number: ");
+Console.Write("Enter the third number: ");
 double thirdNum;
 if (!double.TryParse(Console.ReadLine(), out thirdNum))
 {
@@ -31,7 +31,7 @@ if (!double.TryParse(Console.ReadLine(), out thirdNum))
 }
 
 // Fourth number
-Console.WriteLine("Enter the fourth number: ");
+Console.Write("Enter the fourth number: ");
 double fourthNum;
 if (!double.TryParse(Console.ReadLine(), out fourthNum))
 {
