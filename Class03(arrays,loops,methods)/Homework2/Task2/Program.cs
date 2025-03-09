@@ -44,4 +44,3 @@ else if (group == 2)
     }
 }
 Console.ReadLine();
-
