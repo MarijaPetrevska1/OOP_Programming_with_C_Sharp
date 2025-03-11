@@ -48,7 +48,6 @@ namespace Task1
             Console.WriteLine("Press Enter to exit.");
             Console.ReadLine();
         }
-
         static int AgeCalculator(DateTime birthDate)
         {
             // Get the current date for age calculation
