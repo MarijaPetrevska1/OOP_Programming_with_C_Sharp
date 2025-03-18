@@ -15,7 +15,7 @@ namespace Task1.Models
             Speed = speed;
         }
 
-        // Calculate the speed considering the driver's skill
+        // Calculating the speed considering the driver's skill
         public int CalculateSpeed()
         {
             return Speed * CarDriver.Skill;
