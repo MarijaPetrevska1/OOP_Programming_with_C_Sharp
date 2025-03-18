@@ -1,11 +1,13 @@
-﻿using Homework4.Models;
+﻿using Exercise3.Models;
 
 class Program
 {
     static void Main()
     {
         Console.WriteLine("");
-        Console.WriteLine("Exercise 3");
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        Console.WriteLine("  Homework 4 - Exercise 3 ");
+        Console.ResetColor();
         Console.WriteLine("");
         // Creating an array of 5 Student objects
         Student[] students = new Student[]
@@ -23,7 +25,7 @@ class Program
         while (!found)
         {
             // Asking the user to input a name
-            Console.Write("Please enter a student's name: ");
+            Console.Write("Please enter a student's name: \n");
             string inputName = Console.ReadLine();
             // Data validation
             // Checking if the name is empty (only spaces are entered)

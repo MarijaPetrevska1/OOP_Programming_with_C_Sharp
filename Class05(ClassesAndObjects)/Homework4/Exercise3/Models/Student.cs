@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Homework4.Models
+namespace Exercise3.Models
 {
     public class Student
     {
